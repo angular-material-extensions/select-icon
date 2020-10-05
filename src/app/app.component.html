@@ -445,21 +445,24 @@
         from <a
                 href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-        <markdown src="assets/md/e1.md"></markdown>
+    <markdown src="assets/md/e1.md"></markdown>
 
     <h2 class="div-ex2">Reactive forms</h2>
 
     <div fxLayoutAlign="center">
         <mat-select-icon [icons]="icons" [formControl]="selectIconFC"></mat-select-icon>
     </div>
-        <markdown src="assets/md/e2.md"></markdown>
+
+    <span>Selected: {{this.selectIconFC?.value?.value}}</span>
+    <markdown src="assets/md/e2.md"></markdown>
 
     <h2 class="div-ex2">Default value</h2>
 
     <div fxLayoutAlign="center">
         <mat-select-icon [icons]="icons" [formControl]="selectIconDefault"></mat-select-icon>
     </div>
-        <markdown src="assets/md/e3.md"></markdown>
+    <span>Selected: {{this.selectIconDefault?.value?.value}}</span>
+    <markdown src="assets/md/e3.md"></markdown>
 
     <p>For more info, please read the official readme - see the links above GITHUB - DOCS - NPM</p>
 

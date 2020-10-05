@@ -13,27 +13,33 @@ export class AppComponent {
 
   icons: MatSelectIcon[] = [
     {
-      url: 'assets/icons/countrys-flags/lebanon.svg'
+      url: 'assets/icons/countrys-flags/lebanon.svg',
+      value: 'Lebanon'
       // color: 'accent'
     },
     {
       url: 'assets/icons/countrys-flags/germany.svg',
+      value: 'Germany',
       color: 'warn'
     },
     {
       url: 'assets/icons/countrys-flags/italy.svg',
+      value: 'Italy',
       color: 'primary'
     },
     {
       url: 'assets/icons/countrys-flags/france.svg',
+      value: 'France',
       color: 'primary'
     },
     {
       url: 'assets/icons/countrys-flags/spain.svg',
+      value: 'Spain',
       color: 'accent'
     },
     {
       url: 'assets/icons/countrys-flags/united-kingdom.svg',
+      value: 'United Kingdom',
       color: 'accent'
     }
   ];
