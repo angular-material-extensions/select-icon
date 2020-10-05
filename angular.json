@@ -73,7 +73,7 @@
           "options": {
             "baseHref": "/select-icon/",
             "deployUrl": "/select-icon/",
-            "outputPath": "dist/browser",
+            "outputPath": "dist/select-icon/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
