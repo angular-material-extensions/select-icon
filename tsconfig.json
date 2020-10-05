@@ -15,6 +15,15 @@
     },
     {
       "path": "./e2e/tsconfig.json"
+    },
+    {
+      "path": "./tsconfig.server.json"
+    },
+    {
+      "path": "./projects/angular-material-extensions/select-icon/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/angular-material-extensions/select-icon/tsconfig.spec.json"
     }
 ]
 }
