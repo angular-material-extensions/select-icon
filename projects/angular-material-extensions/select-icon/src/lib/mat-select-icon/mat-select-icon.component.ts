@@ -4,9 +4,9 @@ import { ThemePalette } from '@angular/material/core';
 
 export interface MatSelectIcon {
   url: string;
-  selected?: boolean;
+  value?: any;
   color?: ThemePalette;
-  tags?: string[];
+  tags?: string[]; // todo: 10.2020
 }
 
 @Component({
