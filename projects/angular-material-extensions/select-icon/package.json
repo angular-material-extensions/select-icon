@@ -48,7 +48,8 @@
     "@angular/common": "^10.0.14",
     "@angular/core": "^10.0.14",
     "@angular/cdk": "~10.1.0",
-    "@angular/material": "~10.1.0"
+    "@angular/material": "~10.1.0",
+    "@angular/flex-layout": "~10.0.0-beta.32"
   },
   "dependencies": {
     "tslib": "^2.0.0"
@@ -58,7 +59,7 @@
   },
   "release-it": {
     "github": {
-      "release": false
+      "release": true
     },
     "npm": {
       "publish": true,
