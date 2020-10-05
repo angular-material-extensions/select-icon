@@ -256,7 +256,7 @@ This project is supported by [jetbrains](https://www.jetbrains.com/) with 1 ALL 
 
 ## License
 
-Copyright (c) 2019 [Anthony Nahas](https://github.com/AnthonyNahas). Licensed under the MIT License (MIT) <p align="center">
+Copyright (c) 2020 [Anthony Nahas](https://github.com/AnthonyNahas). Licensed under the MIT License (MIT) <p align="center">
                                                                                                             <img alt="angular-material-extensions's logo"
                                                                                                              height="92px" width="92px" style="text-align: center;" 
                                                                                                              src="https://cdn.jsdelivr.net/gh/angular-material-extensions/select-icon@master/assets/badge_made-in-germany.svg">
