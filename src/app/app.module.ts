@@ -5,6 +5,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterModule } from '@angular/router';
 import { Angulartics2Module } from 'angulartics2';
 import { MarkdownModule } from 'ngx-markdown';
 
@@ -17,6 +18,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
+    RouterModule.forRoot([], {
+      initialNavigation: 'enabled'
+    }),
     Angulartics2Module.forRoot(),
     MarkdownModule.forRoot(),
     ReactiveFormsModule,
