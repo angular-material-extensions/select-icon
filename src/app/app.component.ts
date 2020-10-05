@@ -1,7 +1,7 @@
 import { MatSelectIcon } from '@angular-material-extensions/select-icon';
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { MatSnackBar } from '@angular/material/snack-bar';
+import { Angulartics2GoogleAnalytics } from 'angulartics2/ga';
 
 @Component({
   selector: 'app-root',
@@ -48,9 +48,11 @@ export class AppComponent {
   selectIconDefault: FormControl = new FormControl(this.icons[0]);
 
 
-  constructor(private snackbar: MatSnackBar) {
+  constructor(angulartics2GoogleAnalytics: Angulartics2GoogleAnalytics) {
+    angulartics2GoogleAnalytics.startTracking();
   }
 
+  // tslint:disable-next-line:typedef
   onIconSelected(selectedIcon: MatSelectIcon) {
     console.log('selected icon');
   }
