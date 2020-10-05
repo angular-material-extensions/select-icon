@@ -58,11 +58,11 @@
   },
   "release-it": {
     "github": {
-      "release": true
+      "release": false
     },
     "npm": {
       "publish": true,
-      "publishPath": "../../../dist/angular-material-extensions/select-country"
+      "publishPath": "../../../dist/angular-material-extensions/select-icon"
     },
     "publishConfig": {
       "access": "public"
