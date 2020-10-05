@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/angular-material-extensions/select-icon/compare/1.0.0...1.0.1) (2020-10-05)
+
+
+### Features
+
+* **lib:** added @release-it/conventional-changelog and release-it packages ([e044b5b](https://github.com/angular-material-extensions/select-icon/commit/e044b5bc2f2a959e181ac9b3f9a04f916125d4f6))
+
 
 
 # 1.0.0 (2020-10-05)
