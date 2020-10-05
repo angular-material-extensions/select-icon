@@ -1,0 +1,12 @@
+<div class="dep-img" fxLayout="row wrap">
+  <button (click)="select(icon)"
+          *ngFor="let icon of this.icons"
+          [color]="icon?.color ? icon.color : 'accent'"
+          class="dep-img"
+          mat-icon-button
+          type="button">
+    <img [ngClass]="{'gray': this.value && this.value !== icon}"
+         [src]="icon?.url"
+         class="mat-icon">
+  </button>
+</div>

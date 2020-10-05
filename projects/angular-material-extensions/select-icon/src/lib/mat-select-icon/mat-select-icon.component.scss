@@ -1,0 +1,16 @@
+.dep-img {
+  .mat-icon-button {
+    width: 80px;
+    height: 80px;
+  }
+
+  img.gray {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  img.mat-icon {
+    width: 48px;
+    height: 48px;
+  }
+}
