@@ -19,8 +19,9 @@ import { AppComponent } from './app.component';
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
     RouterModule.forRoot([], {
-      initialNavigation: 'enabled'
-    }),
+    initialNavigation: 'enabled',
+    relativeLinkResolution: 'legacy'
+}),
     Angulartics2Module.forRoot(),
     MarkdownModule.forRoot(),
     ReactiveFormsModule,
