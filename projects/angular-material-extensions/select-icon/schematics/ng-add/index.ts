@@ -23,8 +23,7 @@ export function addPackageJsonDependencies(): Rule {
       {
         type: NodeDependencyType.Default, version: loadPackageVersionGracefully()
           || '1.3.0', name: '@angular-material-extensions/select-icon'
-      },
-      { type: NodeDependencyType.Default, version: '^1.2.6', name: 'svg-icon-flags' }
+      }
     ];
 
     dependencies.forEach(dependency => {
