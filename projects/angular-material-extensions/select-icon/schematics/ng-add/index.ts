@@ -49,6 +49,7 @@ export function addModuleToImports(options: any): Rule {
   return (host: Tree, context: SchematicContext) => {
     const workspace = getWorkspace(host);
     const project = getProjectFromWorkspace(
+      // @ts-ignore
       workspace,
       // Takes the first project in case it's not provided by CLI
       options.project ? options.project : Object.keys(workspace.projects)[0]
