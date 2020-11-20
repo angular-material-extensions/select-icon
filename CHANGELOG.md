@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/angular-material-extensions/select-icon/compare/2.0.0...2.0.1) (2020-11-20)
+
+
+### Bug Fixes
+
+* **project:** minor ([8ab95c7](https://github.com/angular-material-extensions/select-icon/commit/8ab95c7edb931b05816cda770b29b12d6b9c285b))
+* **project:** minor in schematics ([895cf1b](https://github.com/angular-material-extensions/select-icon/commit/895cf1b562fcd8f1c94067b77031d92f2ab130ed))
+
 # [2.0.0](https://github.com/angular-material-extensions/select-icon/compare/1.0.1...2.0.0) (2020-11-20)
 
 
