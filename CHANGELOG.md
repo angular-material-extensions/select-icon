@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/angular-material-extensions/select-icon/compare/1.0.1...2.0.0) (2020-11-20)
+
+
+### Bug Fixes
+
+* **project:** minor ([4401dd5](https://github.com/angular-material-extensions/select-icon/commit/4401dd5535a3d3ab5a180c886c0630861d8d1f7d))
+* **project:** minor fix in schematics ([27721e3](https://github.com/angular-material-extensions/select-icon/commit/27721e3c2347140a42d103a84ab9948f2b89af84))
+
+
+### Features
+
+* **lib:** upgraded angular material to v11 ([7064913](https://github.com/angular-material-extensions/select-icon/commit/706491334b46d8f5d8606da06518c5b393dc44b4))
+* **lib:** upgraded angular to v11 ([0f7c46b](https://github.com/angular-material-extensions/select-icon/commit/0f7c46bb3110016ffe76fa561b3638d516f343c6))
+* **lib:** upgraded nguniversal to v11 ([1e631e0](https://github.com/angular-material-extensions/select-icon/commit/1e631e01738661b15e2e7628f2d9338663b6c7bb))
+* **lib:** upgraded rxjs ([1369db7](https://github.com/angular-material-extensions/select-icon/commit/1369db7ca98c1bff085605971c11c22921df27d1))
+* **project:** updated dependencies ([9fe5e61](https://github.com/angular-material-extensions/select-icon/commit/9fe5e6193abd29e5b8c006f012376bfd80b72739))
+
 ## [1.0.1](https://github.com/angular-material-extensions/select-icon/compare/1.0.0...1.0.1) (2020-10-05)
 
 
