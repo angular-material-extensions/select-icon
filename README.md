@@ -44,7 +44,7 @@ by starring :star: and sharing it :loudspeaker:
 
 <a name="demo"/>
 
-## [Demo](https://angular-material-extensions.github.io/select-country)
+## [Demo](https://angular-material-extensions.github.io/select-icon)
 
 View all the directives and components in action at [https://angular-material-extensions.github.io/select-country](https://angular-material-extensions.github.io/select-country)
 
